@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+/* Whole section except span */
+
+.container {
+  margin-top: 109px;
+  margin-left: 240px;
+}
+
+/* For creative crew, Who are we and long paragraph below it */
+
+.creative-crew {
+  display: flex;
+}
+
+/* For only "The creative crew" text */
+
+.creative-crew h2 {
+  font-family: "PT Serif", serif;
+  font-size: 1.8rem;
+}
+
+/* For both Who are we and long paragraph below it */
+
+.small-texts {
+  display: flex;
+  flex-direction: column;
+  margin-left: 228px;
+}
+
+/* Only for "Who are we" text  */
+
+.small-texts h3 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+/* Only for "We are team of creatively diverse ..." text */
+
+.small-texts p {
+  font-size: 1.1rem;
+}
+
+/* For first three photos */
+
+.first-three {
+  display: flex;
+  margin-top: 80px;
+}
+
+/* For last three photos */
+
+.last-three {
+  display: flex;
+  margin-top: 80px;
+}
+
+/* For image, name, and designation of photo 1 and photo 4  */
+
+.image14 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* For only image part of photo 1 and photo 4 */
+
+.image14 img {
+  width: 200px;
+}
+
+/* For all names i.e. Bill Mahoney, Saba Cabrera etc  */
+
+.name {
+  font-size: 1rem;
+  margin-top: 6px;
+}
+
+/* For both image and designation part to make designation verical */
+
+.image-desig {
+  display: flex;
+}
+
+/* For all designations i.e. Product owner, Art Director etc */
+
+.desig {
+  display: flex;
+  font-family: "PT Serif", serif;
+  font-size: 0.7rem;
+  writing-mode: vertical-lr;
+  text-transform: uppercase;
+  margin-left: 6px;
+  font-weight: 500;
+}
+
+/* For image, name, and designation of photo 2 and photo 5  */
+
+.image25 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 75px;
+  margin-top: 70px;
+}
+
+/* For only image part of photo 2 and photo 5 */
+
+.image25 img {
+  width: 205px;
+}
+
+/* For image, name, and designation of photo 3 and photo 6  */
+
+.image36 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 75px;
+}
+
+/* For only image part of photo 2 and photo 5 */
+
+.image36 img {
+  width: 203px;
+}
+
+/* created by username part */
+.username {
+  font-family: "Montserrat", sans-serif;
+  color: #a9a9a9;
+  font-size: 0.8125rem;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 18px;
+}
