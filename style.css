@@ -10,89 +10,101 @@ body {
   font-size: 15px;
 }
 
-/* Whole section except span */
+@media only screen and (max-width: 960px) {
+  .container {
+    margin-top: 11vh;
+    margin-left: 1.5vh;
+  }
 
-.container {
-  margin-top: 109px;
-  margin-left: 240px;
+  .creative-crew h2 {
+    font-family: "PT Serif", serif;
+    font-size: 3rem;
+  }
+
+  .small-texts h3 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-top: 4vh;
+  }
+
+  .small-texts p {
+    font-size: 1.2rem;
+    margin-top: 2vh;
+  }
+
+  .all-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4vh;
+    justify-content: space-around;
+  }
+
+  .image1-container {
+    width: 45%;
+  }
+
+  .image1-container img {
+    width: 35vw;
+    height: 25vh;
+  }
+
+  .image2-container {
+    width: 45%;
+    margin-top: 6vh;
+  }
+
+  .image2-container img {
+    width: 30vw;
+    height: 25vh;
+  }
+
+  .image3-container {
+    width: 45%;
+  }
+
+  .image3-container img {
+    width: 30vw;
+    height: 25vh;
+  }
+
+  .image4-container {
+    width: 45%;
+    margin-top: 6vh;
+  }
+
+  .image4-container img {
+    width: 30vw;
+    height: 25vh;
+  }
+
+  .image5-container {
+    width: 45%;
+  }
+
+  .image5-container img {
+    width: 30vw;
+    height: 25vh;
+  }
+
+  .image6-container {
+    width: 45%;
+    margin-top: 6vh;
+  }
+
+  .image6-container img {
+    width: 30vw;
+    height: 25vh;
+  }
 }
-
-/* For creative crew, Who are we and long paragraph below it */
-
-.creative-crew {
-  display: flex;
-}
-
-/* For only "The creative crew" text */
-
-.creative-crew h2 {
-  font-family: "PT Serif", serif;
-  font-size: 1.8rem;
-}
-
-/* For both Who are we and long paragraph below it */
-
-.small-texts {
-  display: flex;
-  flex-direction: column;
-  margin-left: 228px;
-}
-
-/* Only for "Who are we" text  */
-
-.small-texts h3 {
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  margin-bottom: 8px;
-}
-
-/* Only for "We are team of creatively diverse ..." text */
-
-.small-texts p {
-  font-size: 1.1rem;
-}
-
-/* For first three photos */
-
-.first-three {
-  display: flex;
-  margin-top: 80px;
-}
-
-/* For last three photos */
-
-.last-three {
-  display: flex;
-  margin-top: 80px;
-}
-
-/* For image, name, and designation of photo 1 and photo 4  */
-
-.image14 {
-  display: flex;
-  flex-direction: column;
-}
-
-/* For only image part of photo 1 and photo 4 */
-
-.image14 img {
-  width: 200px;
-}
-
-/* For all names i.e. Bill Mahoney, Saba Cabrera etc  */
 
 .name {
   font-size: 1rem;
   margin-top: 6px;
 }
 
-/* For both image and designation part to make designation verical */
-
 .image-desig {
   display: flex;
 }
-
-/* For all designations i.e. Product owner, Art Director etc */
 
 .desig {
   display: flex;
@@ -104,36 +116,6 @@ body {
   font-weight: 500;
 }
 
-/* For image, name, and designation of photo 2 and photo 5  */
-
-.image25 {
-  display: flex;
-  flex-direction: column;
-  margin-left: 75px;
-  margin-top: 70px;
-}
-
-/* For only image part of photo 2 and photo 5 */
-
-.image25 img {
-  width: 205px;
-}
-
-/* For image, name, and designation of photo 3 and photo 6  */
-
-.image36 {
-  display: flex;
-  flex-direction: column;
-  margin-left: 75px;
-}
-
-/* For only image part of photo 2 and photo 5 */
-
-.image36 img {
-  width: 203px;
-}
-
-/* created by username part */
 .username {
   font-family: "Montserrat", sans-serif;
   color: #a9a9a9;
@@ -141,4 +123,125 @@ body {
   text-align: center;
   margin-top: 80px;
   margin-bottom: 18px;
+}
+
+/* For desktop view */
+
+@media only screen and (min-width: 960px) {
+  .container {
+    margin-top: 10vh;
+    margin-left: 12vw;
+  }
+
+  .creative-crew {
+    display: flex;
+    justify-content: baseline;
+  }
+
+  .creative-crew h2 {
+    font-family: "PT Serif", serif;
+    font-size: 1.8rem;
+  }
+
+  .small-texts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+  }
+
+  .small-texts h3 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-top: 1vh;
+  }
+
+  .all-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+  }
+
+  .image1-container {
+    width: 25vw;
+  }
+
+  .image1-container img {
+    width: 14vw;
+    height: 38vh;
+  }
+
+  .image2-container {
+    width: 25vw;
+    margin-top: 18vh;
+  }
+
+  .image2-container img {
+    width: 14vw;
+    height: 38vh;
+  }
+
+  .image3-container {
+    width: 25vw;
+  }
+
+  .image3-container img {
+    width: 14vw;
+    height: 38vh;
+  }
+
+  .image4-container {
+    width: 25vw;
+  }
+
+  .image4-container img {
+    width: 14vw;
+    height: 38vh;
+  }
+
+  .image5-container {
+    width: 25vw;
+    margin-top: 18vh;
+  }
+
+  .image5-container img {
+    width: 14vw;
+    height: 38vh;
+  }
+
+  .image6-container {
+    width: 25vh;
+  }
+
+  .image6-container img {
+    width: 14vw;
+    height: 38vh;
+  }
+
+  .name {
+    font-size: 1rem;
+    margin-top: 6px;
+  }
+
+  .image-desig {
+    display: flex;
+  }
+
+  .desig {
+    display: flex;
+    font-family: "PT Serif", serif;
+    font-size: 0.8rem;
+    writing-mode: vertical-lr;
+    text-transform: uppercase;
+    margin-left: 6px;
+    font-weight: 500;
+  }
+
+  .username {
+    font-family: "Montserrat", sans-serif;
+    color: #a9a9a9;
+    font-size: 0.8125rem;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 18px;
+  }
 }
